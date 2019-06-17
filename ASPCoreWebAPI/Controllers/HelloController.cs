@@ -11,6 +11,7 @@ namespace ASPCoreWebAPI.Controllers
     [ApiController]
     public class HelloController : ControllerBase
     {
+        //sample hello
         public IActionResult HelloWorld()
         {
             return Content("Hello ASP Linux !");
